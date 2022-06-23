@@ -14,7 +14,7 @@ sleep 5; sudo pacman -S --needed --noconfirm materia-gtk-theme papirus-icon-them
 sleep 5; sudo pacman -S --needed --noconfirm alsa-utils pamixer unrar unzip p7zip xarchiver openvpn networkmanager-openvpn xreader
 
 # Fonts
-sleep 5; sudo pacman -S --needed --noconfirm ttf-roboto ttf-roboto-mono ttf-font-awesome ttf-ubuntu-font-family nerd-fonts-fira-code ttf-fira-code ttf-fira-mono adobe-source-code-pro-fonts adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts-cjk noto-fonts-emoji
+sleep 5; sudo pacman -S --needed --noconfirm ttf-roboto ttf-roboto-mono ttf-font-awesome ttf-ubuntu-font-family ttf-fira-code ttf-fira-mono adobe-source-code-pro-fonts adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts-cjk noto-fonts-emoji
 
 # Other useful pkgs
 sleep 5; sudo pacman -S --needed --noconfirm bleachbit gvfs ntfs-3g vi vim nano galculator brightnessctl font-manager sxiv yt-dlp xorg-xclipboard xclip feh acpid jedi-language-server curl wget go ripgrep fd
@@ -22,6 +22,6 @@ sleep 5; sudo pacman -S --needed --noconfirm bleachbit gvfs ntfs-3g vi vim nano 
 # TouchPad
 sleep 5; sudo pacman -S --needed --noconfirm xorg-xinput
 
-sudo chsh -s /usr/bin/fish
+chsh -s /usr/bin/fish
 
 pip install psutil
