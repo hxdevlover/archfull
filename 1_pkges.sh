@@ -17,7 +17,7 @@ sleep 5; sudo pacman -S --needed --noconfirm alsa-utils pamixer unrar unzip p7zi
 sleep 5; sudo pacman -S --needed --noconfirm ttf-roboto ttf-roboto-mono ttf-font-awesome ttf-ubuntu-font-family ttf-fira-code ttf-fira-mono adobe-source-code-pro-fonts adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts-cjk noto-fonts-emoji
 
 # Other useful pkgs
-sleep 5; sudo pacman -S --needed --noconfirm bleachbit gvfs ntfs-3g vi vim nano galculator brightnessctl font-manager sxiv yt-dlp xorg-xclipboard xclip feh acpid jedi-language-server curl wget go ripgrep fd
+sleep 5; sudo pacman -S --needed --noconfirm bleachbit gvfs ntfs-3g vi vim nano galculator brightnessctl font-manager sxiv yt-dlp xorg-xclipboard xclip feh acpid jedi-language-server curl wget go ripgrep fd nodejs yarn
 
 # TouchPad
 sleep 5; sudo pacman -S --needed --noconfirm xorg-xinput
